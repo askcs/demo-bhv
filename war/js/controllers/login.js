@@ -101,10 +101,10 @@ angular.module('WebPaige.Controllers.Login', [])
 	  $('#footer').hide();
     $('#watermark').hide();
     // $('#notification').hide();
-	  $('body').css({
-	    'background': 'url(../' + $rootScope.config.profile.background + ') no-repeat center center fixed',
-	    'backgroundSize': 'cover'
-	  });
+//	  $('body').css({
+//	    'background': 'url(../' + $rootScope.config.profile.background + ') no-repeat center center fixed',
+//	    'backgroundSize': 'cover'
+//	  });
 
 
 	  /**
@@ -515,7 +515,7 @@ angular.module('WebPaige.Controllers.Login', [])
 	   */
 	  self.redirectToDashboard = function ()
 	  {
-	    $location.path('/dashboard');
+	    $location.path('/groups');
 
 	    setTimeout(function ()
 	    {

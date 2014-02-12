@@ -5,13 +5,14 @@ var profile = {
 
   meta: 'standby',
 
-  title: 'BRANDWEER',
+  title: 'BHV',
 
 	host: function ()
 	{
     // return ($.browser.msie) ? '/proxy/standby' : 'http://backend.ask-cs.com/standby';
     // return ($.browser.msie) ? '/proxy/standby-test' : 'http://backend.ask-cs.com/standby-test';
-    return ($.browser.msie) ? '/proxy' : 'http://askpack.ask-cs.com/standby-dev';
+    // return ($.browser.msie) ? '/proxy' : 'http://askpack.ask-cs.com/standby-dev';
+    return ($.browser.msie) ? '/proxy/alarmstatemanager' : 'http://askpack.ask-cs.com/alarmstatemanager';
 	},
 
   states: [
